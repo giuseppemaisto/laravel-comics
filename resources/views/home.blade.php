@@ -16,6 +16,7 @@
 </head>
 
     <body>  
+        @include('partials.header')
         <div class="container">
           <div class="row">
           @foreach ($comics as $item)
@@ -36,5 +37,6 @@
 
             
         </div>
+        @include('partials.footer')
     </body>
 </html>
