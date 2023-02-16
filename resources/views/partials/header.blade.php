@@ -15,5 +15,6 @@
             <li><a class="nav-link" href="">NEWS</a></li>
             <li><a class="nav-link" href="">SHOP</a></li>
         </ul>
+       
    </nav>
 </header>
