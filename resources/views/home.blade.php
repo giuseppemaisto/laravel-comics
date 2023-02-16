@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Laravel-comics</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -17,6 +17,10 @@
 
     <body>  
         @include('partials.header')
+
+        <div class="jumbotron">
+             <img src="{{Vite::asset('resources/images/jumbotron.jpg')}}" alt="">
+         </div>
         <div class="container">
           <div class="row">
           @foreach ($comics as $item)
