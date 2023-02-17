@@ -10,18 +10,20 @@
          </div>
         <div class="container">
           <div class="row">
-          @foreach ($comics as $item)
+          @foreach ($comics as $key => $comic)
 
             <div class="col-2">
+            <a href="/comic/{{$key}}">
                 <div class="card">
                 
-                    <img class="card-img-top img-fluid" src="{{ print_r( $item['thumb'])}}" alt="{{ $item['series']}}">
+                    <img class="card-img-top img-fluid" src="{{$comic['thumb']}}" alt="{{$comic['thumb']}}">
                     <div class="card-body">
-                        <h6>{{ $item['series']}}</h6>
+                        <h6>{{ $comic['series']}}</h6>
                     </div>
                 </div>
+                </a>
             </div>
-               
+             
             @endforeach
           
           </div>
