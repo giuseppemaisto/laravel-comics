@@ -21,9 +21,9 @@
             </div>
 
             <div class="col">
-                <ul class="list-unstyled">
+                <ul class="list-menu  list-unstyled">
                     <li><strong>DC</strong></li>
-                    <li class="nav-link" ><a href="/">Term of Use </a></li>
+                    <li class="nav-link" ><a href="#">Term of Use </a></li>
                     <li class="nav-link" ><a href="/">Privacy policy (New)</a></li>
                     <li class="nav-link" ><a href="/">Add Choiches</a></li>
                     <li class="nav-link" ><a href="/">Advertising</a></li>
