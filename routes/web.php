@@ -17,7 +17,20 @@ Route::get('/', function () {
     $comics = config('comics');
 
     return view('home', compact('comics'));
-});
+})->name('home');
+
+Route::get('/home/{param}', function($param){
+    $comics = config('comics');
+
+    foreach($comics as $comic){
+        if($comic['param'] == $param){
+            $single = $comic;
+        }
+    }
+
+    return view('detail_comic', compact('single'));
+})->name('detail-comic');
+
 Route::get('/CHARACTERS', function () {
     return view('CHARACTERS');
 })->name('CHARACTERS');
