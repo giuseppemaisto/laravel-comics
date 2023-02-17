@@ -22,8 +22,9 @@ Route::get('/', function () {
 Route::get('/home/{param}', function($param){
     $comics = config('comics');
 
-    foreach($comics as $comic){
-        if($comic['param'] == $param){
+    $single = '';
+    foreach($comics as $key => $comic){
+        if($key == $param){
             $single = $comic;
         }
     }
