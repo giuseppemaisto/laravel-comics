@@ -5,16 +5,16 @@
    <div>
           <nav>
                <ul class="list-menu list-unstyled gap-3 d-flex justify-content-center mt-5">
-                    <li><a class="nav-link" href="#">CHARACTERS</a></li>
+                    <li><a class="nav-link" href="{{ Route('CHARACTERS')}}">CHARACTERS</a></li>
                     <li><a class="nav-link" href="">COMICS</a></li>
-                    <li><a class="nav-link" href="">MOVIES</a></li>
-                    <li><a class="nav-link" href="">TV</a></li>
-                    <li><a class="nav-link" href="">GAMES</a></li>
-                    <li><a class="nav-link" href="">COLLECTIBLES</a></li>
-                    <li><a class="nav-link" href="">VIDEOS</a></li>
-                    <li><a class="nav-link" href="">FANS</a></li>
-                    <li><a class="nav-link" href="">NEWS</a></li>
-                    <li><a class="nav-link" href="">SHOP</a></li>
+                    <li><a class="nav-link" href="{{ Route('MOVIE')}}">MOVIES</a></li>
+                    <li><a class="nav-link" href="{{ Route('TV')}}">TV</a></li>
+                    <li><a class="nav-link" href="{{ Route('GAMES')}}">GAMES</a></li>
+                    <li><a class="nav-link" href="{{ Route('COLLECTIBLES')}}">COLLECTIBLES</a></li>
+                    <li><a class="nav-link" href="{{ Route('VIDEOS')}}">VIDEOS</a></li>
+                    <li><a class="nav-link" href="{{ Route('FANS')}}">FANS</a></li>
+                    <li><a class="nav-link" href="{{ Route('NEWS')}}">NEWS</a></li>
+                    <li><a class="nav-link" href="{{ Route('SHOP')}}">SHOP</a></li>
                </ul>
                
           </nav>

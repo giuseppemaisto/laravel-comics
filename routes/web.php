@@ -18,3 +18,37 @@ Route::get('/', function () {
 
     return view('home', compact('comics'));
 });
+Route::get('/CHARACTERS', function () {
+    return view('CHARACTERS');
+})->name('CHARACTERS');
+Route::get('/MOVIE', function () {
+    return view('MOVIE');
+})->name('MOVIE');
+
+Route::get('/TV', function () {
+    return view('TV');
+})->name('TV');
+
+Route::get('/GAMES', function () {
+    return view('GAMES');
+})->name('GAMES');
+
+Route::get('/COLLECTIBLES', function () {
+    return view('COLLECTIBLES');
+})->name('COLLECTIBLES');
+
+Route::get('/VIDEOS', function () {
+    return view('VIDEOS');
+})->name('VIDEOS');
+
+Route::get('/FANS', function () {
+    return view('FANS');
+})->name('FANS');
+
+Route::get('/NEWS', function () {
+    return view('NEWS');
+})->name('NEWS');
+
+Route::get('/SHOP', function () {
+    return view('SHOP');
+})->name('SHOP');
