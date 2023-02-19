@@ -30,7 +30,7 @@ Route::get('/home/{param}', function($param){
     }
 
     return view('detail_comic', compact('single'));
-})->name('detail-comic');
+})->name('detail_comic');
 
 Route::get('/CHARACTERS', function () {
     return view('CHARACTERS');
